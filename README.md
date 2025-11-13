@@ -14,7 +14,7 @@ Focus areas:
 - Security event indexing  
 - Dashboard analytics
 
-```markdown
+```
 # 🧩 Wazuh Docker SOC
 
 This project sets up a **home SOC (Security Operations Center)** using **Wazuh**, deployed with **Docker Compose**.  
@@ -47,6 +47,36 @@ Username: admin
 Password: admin
 
 ```
+---
+
+### 2. Log Analysis Lab — Detecting Brute-Force Attempts
+A Python-based log analysis lab for detecting SSH brute-force attacks using real Linux logs.
+Focus areas:
+
+Log parsing and regex extraction
+
+Suspicious IP detection
+
+SOC-style log triage workflow
+```
+# 💾 Log Analysis Lab — Detecting Brute-Force Attempts Using Python
+
+This project analyzes Linux authentication logs to detect **SSH brute-force attempts** using Python.  
+It demonstrates how to process, extract, and identify suspicious login activity from real-world data.
+
+## 🧠 Project Flow
+
+1️⃣ **read_failures.py** — Reads raw logs and filters failed authentication attempts  
+2️⃣ **extract_fields.py** — Extracts key fields (date, user, IP, etc.) into CSV format  
+3️⃣ **count_attempts.py** — Counts failed attempts per IP and flags suspicious ones  
+
+
+```
+
+## 📚 Dataset
+Dataset source: [LogHub Public Security Log Sharing Project](https://github.com/logpai/loghub)
+
+
 ---
 
 ## 🧠 Learning Goals
