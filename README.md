@@ -30,11 +30,7 @@ It provides **real-time monitoring, alerting, and visualization** of host securi
 
 ## ⚙️ Setup
 
-###  Clone the Project
-If you don’t have it yet:
 
-git clone https://github.com/21Stonney/Cybersecurity_projects.git
-cd Cybersecurity_projects/wazuh-docker
 
 ## Start the Stack:
 sudo docker-compose up -d
@@ -46,10 +42,17 @@ Default credentials:
 Username: admin
 Password: admin
 
+
+###  Clone the Project
+If you don’t have it yet:
+
+git clone https://github.com/21Stonney/Cybersecurity_projects.git
+cd Cybersecurity_projects/wazuh-docker
+
 ```
 ---
 
-### 2. [Log Analysis Lab](./Detecting Brute-Force Attempts)
+### 2. Log Analysis Lab - Detecting Brute-Force Attempts 
 A Python-based log analysis lab for detecting SSH brute-force attacks using real Linux logs.
 Focus areas:
 
@@ -68,10 +71,17 @@ It demonstrates how to process, extract, and identify suspicious login activity 
 
 1️⃣ **read_failures.py** — Reads raw logs and filters failed authentication attempts  
 2️⃣ **extract_fields.py** — Extracts key fields (date, user, IP, etc.) into CSV format  
-3️⃣ **count_attempts.py** — Counts failed attempts per IP and flags suspicious ones  
+3️⃣ **count_attempts.py** — Counts failed attempts per IP and flags suspicious ones
+
+
+### Clone the Project
+
+git clone https://github.com/21Stonney/Cybersecurity_projects.git
+cd Cybersecurity_projects/log-analysis/src
 
 
 ```
+
 
 ## 📚 Dataset
 Dataset source: [LogHub Public Security Log Sharing Project](https://github.com/logpai/loghub)
