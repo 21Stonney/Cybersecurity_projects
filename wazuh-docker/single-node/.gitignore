@@ -1,0 +1,16 @@
+# Ignore Wazuh data and volumes
+data/
+volumes/
+tmp/
+logs/
+certs/
+.env
+*.log
+*.pid
+*.sock
+
+# Ignore Docker internals and editor junk
+*.bak
+*.old
+*.swp
+.DS_Store

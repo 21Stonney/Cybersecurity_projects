@@ -12,6 +12,4 @@ log-analysis/src/results/
 wazuh-docker/build-docker-images/
 
 # Main gitignore for Cybersecurity_projects
-wazuh-docker/
-log-analysis/
 
