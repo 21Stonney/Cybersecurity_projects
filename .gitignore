@@ -13,3 +13,8 @@ wazuh-docker/build-docker-images/
 
 # Main gitignore for Cybersecurity_projects
 
+
+# Ignore everything under wazuh-docker except single-node
+wazuh-docker/*
+!wazuh-docker/single-node/
+!wazuh-docker/single-node/**
