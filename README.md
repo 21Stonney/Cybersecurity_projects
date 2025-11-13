@@ -49,7 +49,7 @@ Password: admin
 ```
 ---
 
-### 2. Log Analysis Lab — Detecting Brute-Force Attempts
+### 2. [Log Analysis Lab](./Detecting Brute-Force Attempts)
 A Python-based log analysis lab for detecting SSH brute-force attacks using real Linux logs.
 Focus areas:
 
