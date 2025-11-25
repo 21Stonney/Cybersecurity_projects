@@ -93,6 +93,8 @@ Dataset source: [LogHub Public Security Log Sharing Project](https://github.com/
 - Practice real-world SOC monitoring and detection  
 - Automate repetitive security analysis tasks  
 - Explore blue team tools and network visibility
+- Strengthen incident response and threat-hunting skills
+- Build hands-on experience with security tooling in a lab environment
 
 ---
 
