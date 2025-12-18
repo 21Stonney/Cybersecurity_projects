@@ -28,7 +28,7 @@ The workflow uses three Python scripts that run in sequence:
 - Reads `Linux_2k.log` and uses **regular expressions** to extract:
   - Date & Time  
   - Hostname  
-  - Service (e.g., `sshd`)  
+  - Service (e.g., `ssshd`)  
   - Username  
   - Source IP address  
 - Outputs the structured data
