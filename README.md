@@ -1,11 +1,11 @@
 
-# 🛡️ Cybersecurity Projects
+#  Cybersecurity Projects
 
 A collection of hands-on cybersecurity labs, tools, and automation scripts I’m building to strengthen my skills in threat detection, network defense and SOC operations.
 
 ---
 
-## 🧰 Projects
+##  Projects
 
 ### 1. [Wazuh Docker SOC](./wazuh-docker)
 A containerized Wazuh setup for real-time monitoring, alerting, and log analysis.  
@@ -15,12 +15,12 @@ Focus areas:
 - Dashboard analytics
 
 ```
-# 🧩 Wazuh Docker SOC
+#  Wazuh Docker SOC
 
 This project sets up a **home SOC (Security Operations Center)** using **Wazuh**, deployed with **Docker Compose**.  
 It provides **real-time monitoring, alerting, and visualization** of host security events.
 
-## 🧰 Components
+##  Components
 
 | Service | Description |
 |----------|-------------|
@@ -28,7 +28,7 @@ It provides **real-time monitoring, alerting, and visualization** of host securi
 | **Wazuh Indexer** | Stores indexed security events |
 | **Wazuh Dashboard** | Web interface for alerting and visualization |
 
-## ⚙️ Setup
+##  Setup
 
 
 
@@ -62,12 +62,12 @@ Suspicious IP detection
 
 SOC-style log triage workflow
 ```
-# 💾 Log Analysis Lab — Detecting Brute-Force Attempts Using Python
+#  Log Analysis Lab — Detecting Brute-Force Attempts Using Python
 
 This project analyzes Linux authentication logs to detect **SSH brute-force attempts** using Python.  
 It demonstrates how to process, extract, and identify suspicious login activity from real-world data.
 
-## 🧠 Project Flow
+##  Project Flow
 
 1️⃣ **read_failures.py** — Reads raw logs and filters failed authentication attempts  
 2️⃣ **extract_fields.py** — Extracts key fields (date, user, IP, etc.) into CSV format  
@@ -83,13 +83,13 @@ cd Cybersecurity_projects/log-analysis/src
 ```
 
 
-## 📚 Dataset
+##  Dataset
 Dataset source: [LogHub Public Security Log Sharing Project](https://github.com/logpai/loghub)
 
 
 ---
 
-## 🧠 Learning Goals
+##  Learning Goals
 - Practice real-world SOC monitoring and detection  
 - Automate repetitive security analysis tasks  
 - Explore blue team tools and network visibility
@@ -98,4 +98,4 @@ Dataset source: [LogHub Public Security Log Sharing Project](https://github.com/
 
 ---
 
-### ⭐ Star this repo if you find it useful or want to follow my cybersecurity journey!
+### Star this repo if you find it useful or want to follow my cybersecurity journey!
