@@ -6,12 +6,12 @@ Focus areas:
 - Dashboard analytics
 
 ```markdown
-# 🧩 Wazuh Docker SOC
+#  Wazuh Docker SOC
 
 This project sets up a **home SOC (Security Operations Center)** using **Wazuh**, deployed with **Docker Compose**.  
 It provides **real-time monitoring, alerting, and visualization** of host security events.
 
-## 🧰 Components
+##  Components
 
 | Service | Description |
 |----------|-------------|
@@ -19,7 +19,7 @@ It provides **real-time monitoring, alerting, and visualization** of host securi
 | **Wazuh Indexer** | Stores indexed security events |
 | **Wazuh Dashboard** | Web interface for alerting and visualization |
 
-## ⚙️ Setup
+##  Setup
 
 ###  Clone the Project
 If you don’t have it yet:
