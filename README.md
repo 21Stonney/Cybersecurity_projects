@@ -69,9 +69,9 @@ It demonstrates how to process, extract, and identify suspicious login activity 
 
 ##  Project Flow
 
-1️⃣ **read_failures.py** — Reads raw logs and filters failed authentication attempts  
-2️⃣ **extract_fields.py** — Extracts key fields (date, user, IP, etc.) into CSV format  
-3️⃣ **count_attempts.py** — Counts failed attempts per IP and flags suspicious ones
+**read_failures.py** — Reads raw logs and filters failed authentication attempts  
+**extract_fields.py** — Extracts key fields (date, user, IP, etc.) into CSV format  
+**count_attempts.py** — Counts failed attempts per IP and flags suspicious ones
 
 
 ### Clone the Project
